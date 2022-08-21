@@ -5,7 +5,6 @@ import time
 import cv2
 import os
  
-
 cascPathface = os.path.dirname( cv2.__file__) + "/data/anyofthefileyousaved.xml"   
 # load the anyfile in the cascade classifier
 faceCascade = cv2.CascadeClassifier(cascPathface)
