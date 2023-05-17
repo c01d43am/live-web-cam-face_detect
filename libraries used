@@ -1,0 +1,13 @@
+The libraries used in the provided code are as follows:
+
+1. `face_recognition`: This library provides face recognition functionality, including face detection and face encoding. It is used to compare face encodings and recognize faces in the video stream.
+
+2. `imutils`: This library provides convenience functions to simplify common image processing tasks, such as resizing, rotating, and translating images. In the code, it is used to resize the frame.
+
+3. `pickle`: This library is used for serializing and deserializing Python objects. In the code, it is used to load the known faces and embeddings stored in a file.
+
+4. `time`: This library provides various time-related functions. In the code, it is not directly used but imported for potential future use.
+
+5. `cv2` (OpenCV): This library is a popular computer vision library that provides functions for image and video processing. It is used for tasks such as reading frames from a video stream, converting color spaces, detecting faces using a cascade classifier, drawing rectangles and text on images, and displaying frames.
+
+These libraries provide the necessary tools and functions to perform real-time face recognition using a video stream.
